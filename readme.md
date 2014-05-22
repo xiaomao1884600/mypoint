@@ -1,1 +1,1 @@
-my mysql notes
+my notes for mysql, php, others
