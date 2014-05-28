@@ -263,6 +263,11 @@
   例如 user表 查出的用户进行序号标记
 	select (@rowNO := @rowNo+1) AS rowno,username, userid from (SELECT username, userid  FROM user) a,(select @rowNO :=0) b  
   实际两次查询: 先将 user表的用户先查出来，再对查询的结果按自然顺序进行查询 
+
+或者在命令行：
+	set @rowNO = 0;
+	select (@rowNO := @rowNo+1) AS rowno,username, userid  from user 
+   表中第一列即为rowNO, 从1开始计数
        
             
    
