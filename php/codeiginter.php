@@ -1,4 +1,6 @@
 <?php
+
+
 /** 
 	PHP CodeIgniter2.1向数据库插入数据时报错Undefined property: User::$db (2012-03-26 17:41:47)转载▼
 标签： php codeigniter userdb it	分类： PHP
